@@ -172,12 +172,12 @@ public class SpecialLabelStyle extends BaseSpecialStyle {
     }
 
     /**
-     * 设置是否显示标签背景描边
+     * 设置标签背景描边颜色和宽度
      *
      * @param labelBackgroundBorderColor 描边颜色
      * @param labelBackgroundBorderWidth 描边宽度(单位：px)
      */
-    public SpecialLabelStyle showBackgroundBorder(int labelBackgroundBorderColor, float labelBackgroundBorderWidth) {
+    public SpecialLabelStyle setBackgroundBorder(int labelBackgroundBorderColor, float labelBackgroundBorderWidth) {
         this.isShowBackgroundBorder = true;
         this.labelBackgroundBorderColor = labelBackgroundBorderColor;
         this.labelBackgroundBorderWidth = labelBackgroundBorderWidth;

@@ -11,6 +11,9 @@ import com.liyunlong.simplifyspan.span.CustomClickableSpan;
 
 /**
  * 自定义{@link LinkMovementMethod}
+ *
+ * @author liyunlong
+ * @date 2017/7/7 18:02
  */
 public class CustomLinkMovementMethod extends LinkMovementMethod {
 

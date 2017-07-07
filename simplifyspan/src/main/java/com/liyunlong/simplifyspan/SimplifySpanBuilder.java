@@ -36,8 +36,11 @@ import java.util.Map;
 
 /**
  * 特殊样式构建辅助类
+ *
+ * @author liyunlong
+ * @date 2017/7/7 18:02
  */
-public class SimplifySpanBuild {
+public class SimplifySpanBuilder {
 
     private Context mContext; // 上下文
     private TextView mTextView; // TextView对象
@@ -53,7 +56,7 @@ public class SimplifySpanBuild {
      * @param context  上下文
      * @param textView TextView对象
      */
-    public SimplifySpanBuild(Context context, TextView textView) {
+    public SimplifySpanBuilder(Context context, TextView textView) {
         this(context, textView, null);
     }
 
@@ -64,7 +67,7 @@ public class SimplifySpanBuild {
      * @param textView             TextView对象
      * @param initializeNormalText 初始化正常文本
      */
-    public SimplifySpanBuild(Context context, TextView textView, String initializeNormalText) {
+    public SimplifySpanBuilder(Context context, TextView textView, String initializeNormalText) {
         init(context, textView, initializeNormalText);
     }
 
@@ -76,7 +79,7 @@ public class SimplifySpanBuild {
      * @param initializeNormalText 初始化正常文本
      * @param normalSpecialStyles  正常文本样式
      */
-    public SimplifySpanBuild(Context context, TextView textView, String initializeNormalText, BaseSpecialStyle... normalSpecialStyles) {
+    public SimplifySpanBuilder(Context context, TextView textView, String initializeNormalText, BaseSpecialStyle... normalSpecialStyles) {
         init(context, textView, initializeNormalText, normalSpecialStyles);
     }
 
@@ -194,7 +197,7 @@ public class SimplifySpanBuild {
      *
      * @param specialStyle 特殊样式集合(不支持{@link SpecialConvertMode})
      */
-    public SimplifySpanBuild appendSpecialStyle(BaseSpecialStyle specialStyle) {
+    public SimplifySpanBuilder appendSpecialStyle(BaseSpecialStyle specialStyle) {
         if (specialStyle == null) {
             return this;
         }
@@ -217,7 +220,7 @@ public class SimplifySpanBuild {
      * @param text                正常样式文本
      * @param normalSpecialStyles 正常样式集合(支持{@link SpecialConvertMode})
      */
-    public SimplifySpanBuild appendNormalText(String text, BaseSpecialStyle... normalSpecialStyles) {
+    public SimplifySpanBuilder appendNormalText(String text, BaseSpecialStyle... normalSpecialStyles) {
         if (TextUtils.isEmpty(text)) { // 判断正常样式文本是否为空
             return this;
         }
@@ -237,7 +240,7 @@ public class SimplifySpanBuild {
      *
      * @param specialStyle 特殊样式内容(不支持{@link SpecialConvertMode})
      */
-    public SimplifySpanBuild appendSpecialStyleToFirst(BaseSpecialStyle specialStyle) {
+    public SimplifySpanBuilder appendSpecialStyleToFirst(BaseSpecialStyle specialStyle) {
         if (specialStyle == null) {
             return this;
         }
@@ -261,7 +264,7 @@ public class SimplifySpanBuild {
      * @param text                正常样式文本
      * @param normalSpecialStyles 正常样式集合(支持{@link SpecialConvertMode})
      */
-    public SimplifySpanBuild appendNormalTextToFirst(String text, BaseSpecialStyle... normalSpecialStyles) {
+    public SimplifySpanBuilder appendNormalTextToFirst(String text, BaseSpecialStyle... normalSpecialStyles) {
         if (TextUtils.isEmpty(text)) { // 判断正常样式文本是否为空
             return this;
         }

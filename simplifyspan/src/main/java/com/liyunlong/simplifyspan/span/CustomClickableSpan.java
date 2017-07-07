@@ -12,6 +12,9 @@ import com.liyunlong.simplifyspan.style.SpecialTextStyle;
 
 /**
  * 自定义{@link ClickableSpan}
+ *
+ * @author liyunlong
+ * @date 2016/12/12 11:39
  */
 public class CustomClickableSpan extends ClickableSpan {
 

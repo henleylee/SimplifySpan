@@ -6,6 +6,9 @@ import com.liyunlong.simplifyspan.other.SpecialGravity;
 
 /**
  * 特殊文本样式
+ *
+ * @author liyunlong
+ * @date 2017/7/7 18:02
  */
 public class SpecialTextStyle extends BaseSpecialStyle {
 

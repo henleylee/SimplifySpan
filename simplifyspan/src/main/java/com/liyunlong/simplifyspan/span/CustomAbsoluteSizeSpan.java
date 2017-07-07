@@ -10,6 +10,9 @@ import com.liyunlong.simplifyspan.other.SpecialGravity;
 
 /**
  * 自定义{@link AbsoluteSizeSpan}
+ *
+ * @author liyunlong
+ * @date 2017/7/7 18:02
  */
 @SuppressLint("ParcelCreator")
 public class CustomAbsoluteSizeSpan extends AbsoluteSizeSpan {
@@ -34,7 +37,9 @@ public class CustomAbsoluteSizeSpan extends AbsoluteSizeSpan {
     public void updateDrawState(TextPaint ds) {
         super.updateDrawState(ds);
 
-        if (gravity == SpecialGravity.BOTTOM) return;
+        if (gravity == SpecialGravity.BOTTOM) {
+            return;
+        }
 
         textView.getPaint().getTextBounds(mNormalSizeText, 0, mNormalSizeText.length(), mTextViewRect);
         ds.getTextBounds(mSpecialText, 0, mSpecialText.length(), mSpecialTextRect);

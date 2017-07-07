@@ -2,6 +2,9 @@ package com.liyunlong.simplifyspan.other;
 
 /**
  * 特殊样式内容转换模式
+ *
+ * @author liyunlong
+ * @date 2016/12/12 11:37
  */
 public enum SpecialConvertMode {
     /**

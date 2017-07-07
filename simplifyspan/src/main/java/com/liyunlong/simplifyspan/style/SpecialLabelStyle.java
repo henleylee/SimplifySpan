@@ -7,6 +7,9 @@ import com.liyunlong.simplifyspan.other.SpecialGravity;
 
 /**
  * 特殊标签样式
+ *
+ * @author liyunlong
+ * @date 2017/7/7 18:02
  */
 public class SpecialLabelStyle extends BaseSpecialStyle {
 
@@ -24,6 +27,19 @@ public class SpecialLabelStyle extends BaseSpecialStyle {
     private int labelBackgroundBorderColor; // 描边颜色
     private boolean isShowBackgroundBorder; // 是否显示描边
     private boolean isTextBold; // 是否加粗
+
+    /**
+     * 构造方法
+     *
+     * @param specialText          特殊样式文本
+     * @param labelTextColor       标签字体颜色
+     * @param labelTextSize        标签字体大小(单位：sp)
+     */
+    public SpecialLabelStyle(String specialText, int labelTextColor, float labelTextSize) {
+        super(specialText);
+        this.labelTextSize = labelTextSize;
+        this.labelTextColor = labelTextColor;
+    }
 
     /**
      * 构造方法
@@ -295,7 +311,7 @@ public class SpecialLabelStyle extends BaseSpecialStyle {
     }
 
     /**
-     * Use only in SimplifySpanBuild
+     * Use only in SimplifySpanBuilder
      *
      * @param labelTextSize
      */

@@ -12,6 +12,9 @@ import com.liyunlong.simplifyspan.style.SpecialLabelStyle;
 
 /**
  * 自定义{@link ReplacementSpan}
+ *
+ * @author liyunlong
+ * @date 2016/12/12 11:39
  */
 public class CustomLabelSpan extends ReplacementSpan {
 

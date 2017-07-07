@@ -14,6 +14,9 @@ import java.lang.ref.WeakReference;
 
 /**
  * 自定义{@link ImageSpan}
+ *
+ * @author liyunlong
+ * @date 2016/12/12 11:39
  */
 public class CustomImageSpan extends ImageSpan {
 

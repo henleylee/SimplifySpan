@@ -1,4 +1,4 @@
-package com.liyunlong.simplifyspan.other;
+package com.henley.simplifyspan.other;
 
 import android.text.Layout;
 import android.text.Selection;
@@ -7,12 +7,12 @@ import android.text.method.LinkMovementMethod;
 import android.view.MotionEvent;
 import android.widget.TextView;
 
-import com.liyunlong.simplifyspan.span.CustomClickableSpan;
+import com.henley.simplifyspan.span.CustomClickableSpan;
 
 /**
  * 自定义{@link LinkMovementMethod}
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/7 18:02
  */
 public class CustomLinkMovementMethod extends LinkMovementMethod {

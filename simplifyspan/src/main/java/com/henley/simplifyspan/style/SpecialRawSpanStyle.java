@@ -1,10 +1,10 @@
-package com.liyunlong.simplifyspan.style;
+package com.henley.simplifyspan.style;
 
 import android.text.Spanned;
 
 /**
  * 特殊原始样式
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/7 18:02
  */
 public class SpecialRawSpanStyle extends BaseSpecialStyle {

@@ -1,14 +1,14 @@
-package com.liyunlong.simplifyspan.style;
+package com.henley.simplifyspan.style;
 
 import android.graphics.Bitmap;
 
-import com.liyunlong.simplifyspan.other.SpecialConvertMode;
-import com.liyunlong.simplifyspan.other.SpecialGravity;
+import com.henley.simplifyspan.other.SpecialConvertMode;
+import com.henley.simplifyspan.other.SpecialGravity;
 
 /**
  * 特殊标签样式
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/7 18:02
  */
 public class SpecialLabelStyle extends BaseSpecialStyle {

@@ -1,4 +1,4 @@
-package com.liyunlong.simplifyspan.span;
+package com.henley.simplifyspan.span;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -8,12 +8,12 @@ import android.graphics.RectF;
 import android.media.ThumbnailUtils;
 import android.text.style.ReplacementSpan;
 
-import com.liyunlong.simplifyspan.style.SpecialLabelStyle;
+import com.henley.simplifyspan.style.SpecialLabelStyle;
 
 /**
  * 自定义{@link ReplacementSpan}
  *
- * @author liyunlong
+ * @author Henley
  * @date 2016/12/12 11:39
  */
 public class CustomLabelSpan extends ReplacementSpan {

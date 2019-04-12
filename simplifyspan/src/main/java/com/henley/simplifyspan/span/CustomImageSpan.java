@@ -1,4 +1,4 @@
-package com.liyunlong.simplifyspan.span;
+package com.henley.simplifyspan.span;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,14 +8,14 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.text.style.ImageSpan;
 
-import com.liyunlong.simplifyspan.other.SpecialGravity;
+import com.henley.simplifyspan.other.SpecialGravity;
 
 import java.lang.ref.WeakReference;
 
 /**
  * 自定义{@link ImageSpan}
  *
- * @author liyunlong
+ * @author Henley
  * @date 2016/12/12 11:39
  */
 public class CustomImageSpan extends ImageSpan {

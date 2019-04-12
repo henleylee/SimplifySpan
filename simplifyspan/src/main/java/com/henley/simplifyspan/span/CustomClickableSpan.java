@@ -1,4 +1,4 @@
-package com.liyunlong.simplifyspan.span;
+package com.henley.simplifyspan.span;
 
 import android.graphics.Color;
 import android.text.Spanned;
@@ -7,13 +7,13 @@ import android.text.style.ClickableSpan;
 import android.view.View;
 import android.widget.TextView;
 
-import com.liyunlong.simplifyspan.other.OnClickableSpanListener;
-import com.liyunlong.simplifyspan.style.SpecialTextStyle;
+import com.henley.simplifyspan.other.OnClickableSpanListener;
+import com.henley.simplifyspan.style.SpecialTextStyle;
 
 /**
  * 自定义{@link ClickableSpan}
  *
- * @author liyunlong
+ * @author Henley
  * @date 2016/12/12 11:39
  */
 public class CustomClickableSpan extends ClickableSpan {

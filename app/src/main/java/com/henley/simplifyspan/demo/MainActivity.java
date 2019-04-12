@@ -1,4 +1,4 @@
-package com.liyunlong.simplifyspan.demo;
+package com.henley.simplifyspan.demo;
 
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -7,13 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.liyunlong.simplifyspan.SimplifySpanBuilder;
-import com.liyunlong.simplifyspan.other.OnClickableSpanListener;
-import com.liyunlong.simplifyspan.other.SpecialConvertMode;
-import com.liyunlong.simplifyspan.other.SpecialGravity;
-import com.liyunlong.simplifyspan.style.SpecialImageStyle;
-import com.liyunlong.simplifyspan.style.SpecialLabelStyle;
-import com.liyunlong.simplifyspan.style.SpecialTextStyle;
+import com.henley.simplifyspan.SimplifySpanBuilder;
+import com.henley.simplifyspan.other.OnClickableSpanListener;
+import com.henley.simplifyspan.other.SpecialConvertMode;
+import com.henley.simplifyspan.other.SpecialGravity;
+import com.henley.simplifyspan.style.SpecialImageStyle;
+import com.henley.simplifyspan.style.SpecialLabelStyle;
+import com.henley.simplifyspan.style.SpecialTextStyle;
 
 public class MainActivity extends AppCompatActivity implements OnClickableSpanListener {
 

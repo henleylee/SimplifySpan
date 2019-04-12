@@ -1,12 +1,12 @@
-package com.liyunlong.simplifyspan.style;
+package com.henley.simplifyspan.style;
 
-import com.liyunlong.simplifyspan.other.SpecialConvertMode;
-import com.liyunlong.simplifyspan.other.SpecialGravity;
+import com.henley.simplifyspan.other.SpecialConvertMode;
+import com.henley.simplifyspan.other.SpecialGravity;
 
 /**
  * 特殊样式基类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/7 18:02
  */
 public class BaseSpecialStyle {

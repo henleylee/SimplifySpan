@@ -1,4 +1,4 @@
-package com.liyunlong.simplifyspan.span;
+package com.henley.simplifyspan.span;
 
 import android.annotation.SuppressLint;
 import android.graphics.Rect;
@@ -6,12 +6,12 @@ import android.text.TextPaint;
 import android.text.style.AbsoluteSizeSpan;
 import android.widget.TextView;
 
-import com.liyunlong.simplifyspan.other.SpecialGravity;
+import com.henley.simplifyspan.other.SpecialGravity;
 
 /**
  * 自定义{@link AbsoluteSizeSpan}
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/7 18:02
  */
 @SuppressLint("ParcelCreator")

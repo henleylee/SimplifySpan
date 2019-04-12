@@ -1,4 +1,4 @@
-package com.liyunlong.simplifyspan;
+package com.henley.simplifyspan;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,18 +14,18 @@ import android.text.style.StyleSpan;
 import android.text.style.UnderlineSpan;
 import android.widget.TextView;
 
-import com.liyunlong.simplifyspan.other.CustomLinkMovementMethod;
-import com.liyunlong.simplifyspan.other.OnClickableSpanListener;
-import com.liyunlong.simplifyspan.other.SpecialConvertMode;
-import com.liyunlong.simplifyspan.span.CustomAbsoluteSizeSpan;
-import com.liyunlong.simplifyspan.span.CustomClickableSpan;
-import com.liyunlong.simplifyspan.span.CustomImageSpan;
-import com.liyunlong.simplifyspan.span.CustomLabelSpan;
-import com.liyunlong.simplifyspan.style.BaseSpecialStyle;
-import com.liyunlong.simplifyspan.style.SpecialImageStyle;
-import com.liyunlong.simplifyspan.style.SpecialLabelStyle;
-import com.liyunlong.simplifyspan.style.SpecialRawSpanStyle;
-import com.liyunlong.simplifyspan.style.SpecialTextStyle;
+import com.henley.simplifyspan.other.CustomLinkMovementMethod;
+import com.henley.simplifyspan.other.OnClickableSpanListener;
+import com.henley.simplifyspan.other.SpecialConvertMode;
+import com.henley.simplifyspan.span.CustomAbsoluteSizeSpan;
+import com.henley.simplifyspan.span.CustomClickableSpan;
+import com.henley.simplifyspan.span.CustomImageSpan;
+import com.henley.simplifyspan.span.CustomLabelSpan;
+import com.henley.simplifyspan.style.BaseSpecialStyle;
+import com.henley.simplifyspan.style.SpecialImageStyle;
+import com.henley.simplifyspan.style.SpecialLabelStyle;
+import com.henley.simplifyspan.style.SpecialRawSpanStyle;
+import com.henley.simplifyspan.style.SpecialTextStyle;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,7 +37,7 @@ import java.util.Map;
 /**
  * 特殊样式构建辅助类
  *
- * @author liyunlong
+ * @author Henley
  * @date 2017/7/7 18:02
  */
 public class SimplifySpanBuilder {

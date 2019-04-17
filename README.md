@@ -10,7 +10,15 @@
 #### 可点击的Span： ####
 ![](/screenshots/可点击的Span.png)
 
-## APK Demo ##
+## Download ##
+### Gradle ###
+```gradle
+dependencies {
+    implementation 'com.henley.simplifyspan:simplifyspan:1.0.0'
+}
+```
+
+### APK Demo ###
 
 下载 [APK-Demo](https://github.com/HenleyLee/SimplifySpan/raw/master/app/app-release.apk)
 

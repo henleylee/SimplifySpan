@@ -42,5 +42,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.android.support:appcompat-v7:$supportVersion"
-    implementation project(':simplifyspan')
+//    implementation project(':simplifyspan')
+    implementation 'com.henley.simplifyspan:simplifyspan:1.0.0'
 }

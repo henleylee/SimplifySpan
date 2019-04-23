@@ -19,9 +19,10 @@ def siteUrl = 'https://github.com/HenleyLee/SimplifySpan'
 
 publish {
     userOrg = 'henleylee'
-    groupId = 'com.henley.simplifyspan'
+    groupId = 'com.henley.android'
     artifactId = 'simplifyspan'
     publishVersion = '1.0.0'
+    uploadName = 'SimplifySpan'
     desc = 'An easy to use and powerful Spannable library.'
     website = siteUrl
 }

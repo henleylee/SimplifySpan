@@ -14,7 +14,7 @@
 ### Gradle ###
 ```gradle
 dependencies {
-    implementation 'com.henley.simplifyspan:simplifyspan:1.0.0'
+    implementation 'com.henley.android:simplifyspan:1.0.0'
 }
 ```
 
